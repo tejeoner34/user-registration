@@ -30,19 +30,50 @@
 
 .main{
     display: flex;
+    gap: 1rem;
 }
 
+
+
 .aside {
-    width: 20%;
-    background-color: salmon;
-    height: 300px;
+    width: 15%;
+    background-color: #e6eaec;
+    height: fit-content;
 }
+
+.aside__list {
+    list-style: none;
+}
+
+.aside__item{
+    border-bottom: 1px solid black;
+    padding: 0.7rem;
+}
+
+.logout{
+    background-color: darkgray;
+}
+
+.aside__item:hover{
+    cursor: pointer;
+}
+
+
 
 .section{
     width: 80%;
-    height: 600px;
-    background-color: skyblue;
+    background-color: rgb(211, 233, 241);
+    display: flex;
+    justify-content: center;
 
+}
+
+.logout-button__container{
+    width: 100px;
+}
+
+.logout-button {
+    width: 100%;
 }
 
 .form-container{
